@@ -12,3 +12,21 @@ A 2-layer PCB for a full-wave controlled bridge rectifier to control the speed a
 - 470 µF capacitors to reduce ripple
 - Floating power supplies: B0505S
 
+### Zero crossing detector
+- Detects positive and negative half-cycles:  
+  - Negative half-cycle -> 3.3 V  
+  - Positive half-cycle -> 0 V  
+  - Zero crossings -> Edge change  
+
+- ESP32 interrupts on edge change:  
+  ```cpp
+  attachInterrupt(digitalPinToInterrupt(zeroCrossingPin), ISR_pulse, CHANGE);
+- Maximum current: Imax = 311/69k = 4.5 mA
+- Power dissipated by 27k resistor: I^2*R = 0.55 W
+- Reliability: 3 resistors in series, 1W each
+- Imax optocoupler = 60 mA
+- Maximum reverse voltage on optocoupler:
+- 6 V -> Diode in parallel
+- CTR (sat) = 20 %
+- 8.2k resistor to ensure BJT saturation
+
