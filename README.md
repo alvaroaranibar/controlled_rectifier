@@ -8,7 +8,7 @@ A 2-layer PCB for a full-wave controlled bridge rectifier to control the speed a
 ## Stages
 
 ### 5V Linear Regulator and Floating 5V Power Supplies
--LM7805
--470 µF capacitors to reduce ripple
--Floating power supplies: B0505S
+- LM7805
+- 470 µF capacitors to reduce ripple
+- Floating power supplies: B0505S
 
