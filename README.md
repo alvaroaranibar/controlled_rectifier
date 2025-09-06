@@ -29,8 +29,9 @@ A 2-layer PCB for a full-wave controlled bridge rectifier to control the speed a
   - Zero crossings -> Edge change
 
 - ESP32 interrupts on edge change:  
-        
-        attachInterrupt(digitalPinToInterrupt(zeroCrossingPin), ISR_pulse, CHANGE);
+
+  ```cpp
+  attachInterrupt(digitalPinToInterrupt(zeroCrossingPin), ISR_pulse, CHANGE);
 
 - Maximum current: Imax = 311/69k = 4.5 mA  
 - Power dissipated by 27k resistor: I^2*R = 0.55 W  
