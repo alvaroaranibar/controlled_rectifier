@@ -5,6 +5,11 @@ A 2-layer PCB for a full-wave controlled bridge rectifier to control the speed a
 ## Block diagram
 <img width="1999" height="875" alt="translated_image_en (3)" src="https://github.com/user-attachments/assets/068af9c5-dcf5-4faf-9c92-e34b611a9e2f" />
 
+- Power Supply: AC-DC regulation circuit with transformer, 5V linear regulator, and floating 5V-ground references.
+- Zero-Crossing Detector: Optocoupler-based circuit generating a 3.3V square wave at AC zero crossings.
+- Signal Acquisition: Zero-crossing pulses are read via GPIOs and potentiometer input via ESP32 ADC.
+- Control: ESP32 processes inputs and generates periodic firing signals, adapted through an optocoupler driver to feed SCR gate-cathode terminals.
+     
 ## Stages
 
 ### 5V Linear Regulator and Floating 5V Power Supplies
