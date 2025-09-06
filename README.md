@@ -53,15 +53,10 @@ A 2-layer PCB for a full-wave controlled bridge rectifier to control the speed a
 
 <div style="display: flex; justify-content: center; gap: 20px;">
 
-  <figure>
-    <img src="https://github.com/user-attachments/assets/698dde33-620f-4cbb-8f0c-44bd86a81acd" alt="Image 1" width="300">
-    <figcaption>Figure 1: First image caption</figcaption>
-  </figure>
+| <img src="https://github.com/user-attachments/assets/698dde33-620f-4cbb-8f0c-44bd86a81acd" width="300"> | <img src="https://github.com/user-attachments/assets/dc1cdfeb-fc80-48d8-b6a1-41a93b3a30a9" width="300"> |
+|:-------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|
+| Figure 1: First image caption                                                                           | Figure 2: Second image caption                                                                           |
 
-  <figure>
-    <img src="https://github.com/user-attachments/assets/dc1cdfeb-fc80-48d8-b6a1-41a93b3a30a9" alt="Image 2" width="300">
-    <figcaption>Figure 2: Second image caption</figcaption>
-  </figure>
 
 </div>
 
