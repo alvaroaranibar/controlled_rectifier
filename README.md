@@ -55,7 +55,7 @@ A 2-layer PCB for a full-wave controlled bridge rectifier to control the speed a
 
 | <img src="https://github.com/user-attachments/assets/698dde33-620f-4cbb-8f0c-44bd86a81acd" width="300"> | <img src="https://github.com/user-attachments/assets/dc1cdfeb-fc80-48d8-b6a1-41a93b3a30a9" width="300"> |
 |:-------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|
-| Figure 1: First image caption                                                                           | Figure 2: Second image caption                                                                           |
+| Positive lobes                                                                           | Negative lobes                                                                       |
 
 
 </div>
